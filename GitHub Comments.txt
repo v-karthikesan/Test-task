@@ -44,4 +44,9 @@ If you want to add all your files/folder to staging area
 10.Regular Commands to push files and folders
 -----------------------------------------------
 	git push
+
+11.Regular Commands to push files and folders
+-----------------------------------------------
+	git push
+
  
