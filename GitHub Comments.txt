@@ -1,0 +1,47 @@
+	1.Initilize Git
+--------------
+	git init
+
+2. Add UserName and Password to local Git
+------------------------------------------
+	git config --global user.name "v-karthikesan"
+	git config --global user.email "vkarthikesan@gmail.com"
+
+3.Check Git Status:
+-------------------
+	git status
+
+4.Add file  from Working area to Staging Area
+---------------------------------------------
+	git add main.py
+
+If you want to add all your files/folder to staging area
+	git add .
+
+
+5.Add files/folder from staging area to git repository
+-------------------------------------------------------
+	git commit -m "Comments"
+
+6.Check Git Status
+-------------------
+	git status
+
+7.Add the URL of Remote GitHub Repo to your local Git Repo
+-----------------------------------------------------------
+	git remote add origin http.....
+	git remote add origin https://github.com/v-karthikesan/Test-task.git
+
+8. Tell Git Which branch to use in GitHub to send the files and folders
+-----------------------------------------------------------------------------
+	git branch -M main
+	git branch -M main
+
+9.Push all files/folders from local Git repo to GitHub repository(use Once)
+------------------------------------------------------------------------------
+	git push -u orgin main
+	
+10.Regular Commands to push files and folders
+-----------------------------------------------
+	git push
+ 
